@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
+        <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/Login.css') }}" type="text/css">
+        <title>Login Noodles Company</title>
+    </head>
+    <body>
+        <form action="/login" method="POST" name="formLogin"
+        OnSubmit="return validar_formulario(event);"> 
+        <div class="v42_35">
+            <div class="v42_36"></div>
+            <div class="v42_37"></div>
+            <div class="v42_38"></div>
+            <div class="v42_39"></div>
+            <div class="v42_40"></div>
+            <div class="v42_41"></div>
+            <div class="v42_43"></div>
+            <div class="v15_39"></div>
+            <span class="v42_44">INICIAR SESION</span>
+            <a  href="/registro">
+                <span class="v42_45">REGISTRARSE</span>
+              </a>
+            <span class="v1">{{error}}</span>
+            <!--<div class="v42_62"></div>-->
+            <input type="email" class="v42_60" id="correo" name="correo" placeholder="Correo">
+            <input type="password" class="v42_63" id="contraseña" name="contraseña" placeholder="Contraseña">
+            <!--<img src="/static/images/view.png"  class="v50" onmouseover="mostrarPassword()"; onmouseout="ocultarPassword()";>-->
+            <!--<div class="v42_64"></div>-->
+            <input type="submit" class="v42_65" value="Ingresar">
+            <h3>{{mensaje}}</h3>
+      </p>
+        </div>
+    </form>
+    <script >
+      function validar_formulario() {
+        var email = document.formLogin.correo;
+        var password = document.formLogin.contraseña;
+      
+        var formato_email = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+        if (!email.value.match(formato_email)) {
+          alert("Debes ingresar un email electrónico valido!");
+          return false; //Para que los datos se conserven
+          
+        }
+      
+        var passid_len = password.value.length;
+        if (passid_len == 0 || passid_len < 8) {
+          alert("Debes ingresar una password con más de 8 caracteres");
+          return false; //Para que los datos se conserven
+        }
+      }
+    
+      /*function mostrarPassword(){
+        var objeto=document.getElementById("correo")
+        objeto.type="text"
+      }
+      function ocultarPassword(){
+        var objeto=document.getElementById("contraseña")
+        objeto.type="password"
+      }*/
+    </script>
+    </body>
+</html>

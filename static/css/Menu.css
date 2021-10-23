@@ -1,0 +1,446 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.seccion-lista-deseos .lista-deseos-bio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, .2);
+  background-color: #C79D4C;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.seccion-lista-deseos .lista-deseos-bio {
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+.plato1 {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top:40rem;
+  left:12rem;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+}
+.descplato{
+  position: relative;
+  top: 40rem;
+  left:15rem;
+  color: rgba(255,255,255,1);
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  list-style:none;
+
+}
+.agregar {
+  background-color: #4c76c7;
+  border-radius: 20px 20px 20px 20px;
+  position: relative;
+  top:35rem;
+  right: -15rem;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+}
+.v40_4 {
+    width: 100%;
+    height: 2000px;
+    background: rgb(0, 0, 0);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.v40_20 { /*letra nuestro menu*/
+  width: 379px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 130px;
+  left: 531px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+.v40_21 {  /*letra preparado por los mejores chef*/
+    position: absolute;
+    width: 578px;
+    height: 140px;
+    left: 431px;
+    top: 360px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.v40_23 {
+  width: 176px;
+  height: 225px;
+  background: url("/static/images/v40_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 100px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_24 {
+  width: 300px;
+  height: 225px;
+  background: url("/static/images/v40_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 325px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_25 {
+  width: 300px;
+  height: 183px;
+  background: url("/static/images/v40_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 614px;
+  left: 670px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_26 {
+  width: 306px;
+  height: 203px;
+  background: url("/static/images/v40_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 614px;
+  left: 985px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_27 {
+  width: 175px;
+  height: 175px;
+  background: url("/static/images/v40_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 818px;
+  left: 256px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v42_29 {
+  width: 130px;
+  height: 156px;
+  background: url("/static/images/v42_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 829px;
+  left: 574px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  overflow: hidden;
+}
+.v42_30 {
+  width: 143px;
+  height: 158px;
+  background: url("/static/images/v42_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 903px;
+  overflow: hidden;
+}
+.v40_6 { /*fondo logo*/
+    position: absolute;
+    width: 227px;
+    height: 225px;
+    left: 30px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 50px 50px;
+}
+.v40_7 { /*fondo menu*/
+    position: absolute;
+    width: 205px;
+    height: 78px;
+    left: 300px;
+    top: -5px;
+
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v40_8 { /*fondo promo*/
+    position: absolute;
+    width: 205px;
+    height: 78px;
+    left: 545px;
+    top: -5px;
+
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v40_9 {/*fondo wp*/
+    position: absolute;
+    width: 122px;
+    height: 69px;
+    left: 1230px;
+    top: 887px;
+
+    background: #4EB18F;
+    border-radius: 30px 0px 0px 30px;
+}
+.v13_31 { /*fondo inicio sesion*/
+    position: absolute;
+    width: 178px;
+    height: 78px;
+    left: 1171px;
+    top: 211px;
+    
+    background: #C79D4C;
+    border-radius: 30px 0px 0px 30px;
+}
+.v40_11 { /*fondo busqueda*/
+    position: absolute;
+    width: 92px;
+    height: 78px;
+    left: 792px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v13_35 { /*fondo lista de deseos*/
+    position: absolute;
+    width: 92px;
+    height: 78px;
+    left: 920px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.v40_12 {  /*fondo carrito*/
+    position: absolute;
+    width: 178px;
+    height: 147px;
+    left: 1171px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 0px 50px;
+}
+.v40_13 { /*imagen logo*/
+    position: absolute;
+    width: 136px;
+    height: 195px;
+    left: 73px;
+    top: 10px;
+    background: url("/static/images/v13_19.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+}
+.v40_14 { /*letra menu*/
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 360px;
+    top: 16px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_15 { /*letra promos*/
+    position: absolute;
+    width: 118px;
+    height: 36px;
+    left: 590px;
+    top: 16px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_16 { /*letra iniciar sesion*/
+    position: absolute;
+    width: 118px;
+    height: 75px;
+    left: 1210px;
+    top: 214px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_17 { /*imagen lupa*/
+
+  background: url("/static/images/v13_29.png");
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 816px;
+  top: 10px;
+}
+
+.v95_7 { /*imagen corazon*/
+
+  background: url("/static/images/v95_7.png");
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 940px;
+  top: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.v40_18 { /*imagen carrito*/
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1225px;
+    top: 28px;
+    background: url("/static/images/v15_33.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.v40_19 { /*imagen wp*/
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1255px;
+    top: 892px;
+    width: 60px;
+    height: 60px;
+    background: url("/static/images/v15_36.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.v46_4 { /*Rectangulo de abajo*/
+    position: absolute;
+    width: 1440px;
+    height: 29px;
+    left: 0px;
+    top: 995px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 50%);
+}
+.v46_5 { /* letra contacto*/
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 408px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.v46_7 { /*PQR*/
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 974px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    
+}
+.v46_6 { /*politica de privacidad*/
+    position: absolute;
+    width: 286px;
+    height: 22px;
+    left: 610px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}

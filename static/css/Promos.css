@@ -1,0 +1,780 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v137_191 {
+  width: 100%;
+  height: 1024px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v137_192 {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v15_39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 58px;
+  overflow: hidden;
+}
+.v137_193 {
+  width: 227px;
+  height: 211px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 146px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.v137_194 {
+  width: 205px;
+  height: 78px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 421px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v137_195 {
+  width: 205px;
+  height: 78px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 674px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v137_196 {
+  width: 122px;
+  height: 69px;
+  background: rgba(78,177,143,1);
+  opacity: 1;
+  position: absolute;
+  top: 887px;
+  left: 1318px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+}
+.v137_197 {
+  width: 101px;
+  height: 78px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 211px;
+  left: 1339px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  overflow: hidden;
+}
+.v137_198 {
+  width: 92px;
+  height: 78px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 927px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v137_199 {
+  width: 178px;
+  height: 147px;
+  background: rgba(199,157,75,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 1262px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+}
+.v137_200 {  /*logo*/
+  width: 127px;
+  height: 179px;
+  background: url("../images/v13_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 16px;
+  left: 196px;
+  overflow: hidden;
+}
+.v137_201 {
+  width: 81px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 483px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_202 {
+  width: 118px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 16px;
+  left: 718px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_203 {
+  width: 48px;
+  height: 48px;
+  background: url("../images/v13_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 949px;
+  overflow: hidden;
+}
+.v137_204 {
+  width: 90px;
+  height: 90px;
+  background: url("../images/v15_33.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 1306px;
+  overflow: hidden;
+}
+.v137_205 {
+  width: 60px;
+  height: 60px;
+  background: url("../images/v40_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 892px;
+  left: 1349px;
+  overflow: hidden;
+}
+.v137_207 {
+  width: 100%;
+  height: 29px;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  opacity: 1;
+  position: absolute;
+  top: 995px;
+  left: 0px;
+  overflow: hidden;
+}
+.v137_208 {
+  width: 124px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 999px;
+  left: 408px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_209 {
+  width: 57px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 999px;
+  left: 974px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_210 {
+  width: 286px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 999px;
+  left: 610px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_211 {
+  width: 57px;
+  height: 57px;
+  background: url("../images/v40_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 221px;
+  left: 1361px;
+  overflow: hidden;
+}
+.v137_213 {
+  width: 357px;
+  height: 250px;
+  background: url("../images/v40_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 591px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
+.v137_215 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 211px;
+  left: 146px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+.v137_216 {
+  width: 346px;
+  height: 364px;
+  background: url("../images/v42_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 352px;
+  left: 1019px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  overflow: hidden;
+}
+.v137_217 {
+  width: 300px;
+  height: 200px;
+  background: url("../images/v40_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 110px;
+  overflow: hidden;
+}
+.v137_218 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 770px;
+  left: 162px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_220 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 770px;
+  left: 657px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_219 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 770px;
+  left: 1079px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_221 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 842px;
+  left: 162px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_222 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 842px;
+  left: 657px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+.v137_223 {
+  width: 226px;
+  color: rgba(255,253,253,1);
+  position: absolute;
+  top: 842px;
+  left: 1079px;
+  font-family: Bowlby One SC;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v40_4 {
+    width: 100%;
+    height: 1029px;
+    background: rgb(0, 0, 0);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.v40_20 { /*letra nuestro menu*/
+  width: 379px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 130px;
+  left: 531px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 100px;
+  opacity: 1;
+  text-align: center;
+}
+.v40_21 {  /*letra preparado por los mejores chef*/
+    position: absolute;
+    width: 578px;
+    height: 140px;
+    left: 431px;
+    top: 360px;
+    
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.v40_23 {
+  width: 176px;
+  height: 225px;
+  background: url("/static/images/v40_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 100px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_24 {
+  width: 300px;
+  height: 225px;
+  background: url("/static/images/v40_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 325px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_25 {
+  width: 300px;
+  height: 183px;
+  background: url("/static/images/v40_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 614px;
+  left: 670px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_26 {
+  width: 306px;
+  height: 203px;
+  background: url("/static/images/v40_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 614px;
+  left: 985px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  overflow: hidden;
+}
+.v40_27 {
+  width: 175px;
+  height: 175px;
+  background: url("/static/images/v40_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 818px;
+  left: 256px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+}
+.v42_29 {
+  width: 130px;
+  height: 156px;
+  background: url("/static/images/v42_29.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 829px;
+  left: 574px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  overflow: hidden;
+}
+.v42_30 {
+  width: 143px;
+  height: 158px;
+  background: url("/static/images/v42_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 903px;
+  overflow: hidden;
+}
+.v40_6 { /*fondo logo*/
+    position: absolute;
+    width: 227px;
+    height: 225px;
+    left: 30px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 50px 50px;
+}
+.v40_7 { /*fondo menu*/
+    position: absolute;
+    width: 205px;
+    height: 78px;
+    left: 300px;
+    top: -5px;
+
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v40_8 { /*fondo promo*/
+    position: absolute;
+    width: 205px;
+    height: 78px;
+    left: 545px;
+    top: -5px;
+
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v40_9 {/*fondo wp*/
+    position: absolute;
+    width: 122px;
+    height: 69px;
+    left: 1230px;
+    top: 887px;
+
+    background: #4EB18F;
+    border-radius: 30px 0px 0px 30px;
+}
+.v13_31 { /*fondo inicio sesion*/
+    position: absolute;
+    width: 178px;
+    height: 78px;
+    left: 1171px;
+    top: 211px;
+    
+    background: #C79D4C;
+    border-radius: 30px 0px 0px 30px;
+}
+.v40_11 { /*fondo busqueda*/
+    position: absolute;
+    width: 92px;
+    height: 78px;
+    left: 792px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+}
+.v13_35 { /*fondo lista de deseos*/
+    position: absolute;
+    width: 92px;
+    height: 78px;
+    left: 920px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.v40_12 {  /*fondo carrito*/
+    position: absolute;
+    width: 178px;
+    height: 147px;
+    left: 1171px;
+    top: -5px;
+    
+    background: #C79D4C;
+    border-radius: 0px 0px 0px 50px;
+}
+.v40_13 { /*imagen logo*/
+    position: absolute;
+    width: 136px;
+    height: 195px;
+    left: 73px;
+    top: 10px;
+    background: url("/static/images/v13_19.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+}
+.v40_14 { /*letra menu*/
+    position: absolute;
+    width: 81px;
+    height: 36px;
+    left: 360px;
+    top: 16px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_15 { /*letra promos*/
+    position: absolute;
+    width: 118px;
+    height: 36px;
+    left: 590px;
+    top: 16px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_16 { /*letra iniciar sesion*/
+    position: absolute;
+    width: 118px;
+    height: 75px;
+    left: 1210px;
+    top: 214px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+.v40_17 { /*imagen lupa*/
+
+  background: url("/static/images/v13_29.png");
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 816px;
+  top: 10px;
+}
+
+.v95_7 { /*imagen corazon*/
+
+  background: url("/static/images/v95_7.png");
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 940px;
+  top: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.v40_18 { /*imagen carrito*/
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1225px;
+    top: 28px;
+    background: url("/static/images/v15_33.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.v40_19 { /*imagen wp*/
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1255px;
+    top: 892px;
+    width: 60px;
+    height: 60px;
+    background: url("/static/images/v15_36.png");
+    background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.v46_4 { /*Rectangulo de abajo*/
+    position: absolute;
+    width: 1440px;
+    height: 29px;
+    left: 0px;
+    top: 995px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 50%);
+}
+.v46_5 { /* letra contacto*/
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 408px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+.v46_7 { /*PQR*/
+    position: absolute;
+    width: 57px;
+    height: 22px;
+    left: 974px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+    
+}
+.v46_6 { /*politica de privacidad*/
+    position: absolute;
+    width: 286px;
+    height: 22px;
+    left: 610px;
+    top: 999px;
+    
+    font-family: Bowlby One SC;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    
+    color: #FFFFFF;
+}
+

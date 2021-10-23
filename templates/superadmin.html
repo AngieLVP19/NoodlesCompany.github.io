@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
+        <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One+SC" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Admin Noodles company</title>
+    <body>
+        {%if sesion_ini%}
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/Superadmin.css') }}" type="text/css">
+        <div class="v62_125">
+            <div class="v62_126">
+                <div class="v62_127"></div>
+                <div class="v62_128"></div>
+                <div class="v62_129"></div>
+                <div class="v62_130"></div>
+                <div class="v62_131"></div>
+                <div class="v62_132"></div>
+                <div class="v62_133"></div>
+                <div class="v62_134"></div>
+                <div class="v62_135"></div>
+                <div class="v62_136"></div>
+                <div class="v62_137"></div>
+                <div class="v62_138"></div>
+                <div class="v62_139"></div>
+                <div class="v62_140"></div>
+                <div class="v62_141"></div>
+                <div class="v62_142"></div>
+                <div class="v62_143"></div>
+                <div class="v62_144"></div>
+                <div class="v62_145"></div>
+                <div class="v62_146"></div>
+                <div class="v62_147"></div>
+                <div class="v62_148"></div>
+                <div class="v62_149"></div>
+                <div class="v62_150"></div>
+                <div class="v62_151"></div>
+                <div class="v62_152"></div>
+                <div class="v62_153"></div>
+                <div class="v62_154"></div>
+                <div class="v62_155"></div>
+                <div class="v62_156"></div>
+                <div class="v62_157"></div>
+                <div class="v62_158"></div>
+                <div class="v62_159"></div>
+                <div class="v62_160"></div>
+                <div class="v62_161"></div>
+                <div class="v62_162"></div>
+                <div class="v62_163"></div>
+                <div class="v62_164"></div>
+                <div class="v62_165"></div>
+                <div class="v62_166"></div>
+                <div class="v62_167"></div>
+                <div class="v62_168"></div>
+                <div class="v62_169"></div>
+                <div class="v62_170"></div>
+                <div class="v62_171"></div>
+                <div class="v62_172"></div>
+                <div class="v62_173"></div>
+                <div class="v62_174"></div>
+                <div class="v62_175"></div>
+                <div class="v62_176"></div>
+                <div class="v62_177"></div>
+                <div class="v62_178"></div>
+                <div class="v62_179"></div>
+                <div class="v62_180"></div>
+                <div class="v62_181"></div>
+                <div class="v62_182"></div>
+                <div class="v62_183"></div>
+                <div class="v62_184"></div>
+                <div class="v62_185"></div>
+                <div class="v62_186"></div>
+            </div><div class="v62_187"></div>
+            <div class="v62_188"></div>
+            <div class="v62_189"></div>
+            <div class="v62_190"></div>
+            <a  href="/">
+                <div class="v62_191"></div>
+            </a>
+            <a  href="/carrito">
+                <div class="v62_192"></div>
+            </a>
+            <div class="v62_193"></div>
+            <span class="v62_194">HOLA {{nombre}}</span>
+            <div class="v62_195"></div>
+            <div class="v62_196"></div>
+            <div class="v62_197"></div>
+            <div class="v62_198"></div>
+            <div class="v62_199"></div>
+            <a  href="/gestionPlato">
+                <span class="v62_200">GESTIONAR PLATO</span>
+            </a>
+            <a  href="/gestionUsuario">
+                <span class="v62_201">GESTIONAR USUARIOS</span>
+            </a>
+            <a  href="/mis_comentarios">
+                <span class="v62_202">GESTIONAR COMENTARIOS</span>
+            </a>
+            <a  href="/dashboard">
+                <span class="v62_203">DASHBOARD</span>
+            </a>
+                
+                <span class="v62_208">{{email}}</span>
+                <span class="v62_209">Dirección {{direccion}}</span>
+                <a  href="/c_contraseña">
+                    <span class="v62_210">Cambiar contraseña</span>
+                </a>
+                
+                <span class="v62_211">Teléfono {{telefono}}</span>
+                <div class="v67_2"></div><div class="v69_7"></div>
+                <span class="v67_3">SUPER ADMIN</span>
+                <div class="v67_4"></div>
+                <div class="v69_5"></div>
+                <div class="v69_6"></div>
+                <form action="/logout" method="POST">
+                    {{csrf_token}}
+                    <input type="submit" class="v1" value="cerrar sesion">
+                </form>
+            </div>
+            {%endif%}
+        </body>
+    </html>

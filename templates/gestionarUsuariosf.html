@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usando Plantillas en Flask</title>
+</head>
+<body>
+<strong><form method="POST" action="/gestion_usuariof">
+    <a  href="/agregar_usuariof">
+        <div class="3">Agregar usuario</div>
+    </a>
+    <a  href="/editar_usuariof">
+        <div class="3">Editar usuario</div>
+    </a>
+    <br><br>
+    {%for i in lista_usuariosf%}
+            <div id="1" name="1">{{i}}</div> 
+            <br><br>
+    {%endfor%}
+    <input type="text" id="3" name="3" placeholder="digite id de usuario a eliminar">
+    <input type="submit" id="2"  value="Eliminar">
+</form>
+        
+</strong>
+</body>
+</html>

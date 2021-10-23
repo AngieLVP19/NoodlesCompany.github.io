@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/ListaDeseos.css') }}" type="text/css">
+        <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One+SC" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Lista Noodles Company</title>
+    </head>
+
+    <body>
+
+    <section class="seccion-lista-deseos">
+        
+
+        <div class="lista-deseos-header">
+            <div class="lista-deseos-portada">
+                <h1 class="nombre">LISTA DE DESEOS</h1>
+                <form action ="/carrito">
+                <button class="Carrito">
+                    Carrito
+                </button>
+            </form>
+            </div>
+            
+        </div>
+        {%for i in lista_deseos%}
+        <div class="lista-deseos-bio">
+        <form action ="/lista" method="POST">
+            {% set nombre=i[4]%}
+            {% set precio=i[6]%}
+            {% set id=i[3]%}
+            <img src="/static/images/{{i[7]}}" class="plato1"> 
+            <input type="submit" class="agregar" nombre="eliminar" value="Eliminar">
+            <input id="id" name="id" type="hidden" value="{{id}}">
+            <ul class="descplato">
+               <a href="/plato{{i[3]}}"><li> {{nombre}} </li></a> 
+                <li name="precio"> $ {{precio}}</li>
+            </ul>
+            
+             </form>
+            </div>
+        {%endfor%}
+        
+            
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+

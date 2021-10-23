@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v42_46 {
+    width: 100%;
+    height: 1029px;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+  overflow: hidden;
+}
+.v15_39 { /*Imagen fondo*/
+    /*background-color:rgba(0, 0, 0, 0.6000000238418579);*/
+	width:1420px;
+	height:100%;
+	position:absolute;
+	left:-58.51273727416992px;
+	top:-1px;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+    /*position: absolute; /static/css/Inicio.css
+    width: 1390px;
+    height: 1029px;
+    left: -58.51px; 
+    top: -5px;*/
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/images/fondoregistro.jpg");
+    filter: blur(1.5px);
+}
+
+.v42_55 { /*letras iniciar sesion*/
+  width: 88px;
+  color: rgba(76,118,199,1);
+  position: absolute;
+  top: 550px;
+  left: 100px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.v42_56 { /*letras registro*/
+  width: 199px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.v1 { /*letras error*/
+  width: 500px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.v42_66 { /*input nombre*/
+  width: 178px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: 155px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v42_67 { /*input apellido*/
+  width: 175px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 240px;
+  left: 450px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v42_70 { /*input contraseña*/
+  width: 178px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 155px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v42_71 {  /*input verificar contraseña*/
+  width: 175px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 400px;
+  left: 450px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v42_68 {  /*input correo*/
+  width: 178px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 320px;
+  left: 155px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v42_69 {  /*input telefono*/
+  width: 175px;
+  height: 32px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 320px;
+  left: 450px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.v42_81 { /*boton registro*/
+  width: 388px;
+  height: 30px;
+  background: rgba(76,118,199,1);
+  opacity: 1;
+  position: absolute;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  top: 470px;
+  left: 191px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+

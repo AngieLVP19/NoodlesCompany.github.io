@@ -1,0 +1,308 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-size: 14px;
+}
+.v0_3 {
+      /*width:1440px;
+      height:1024px;
+      position:absolute;*/
+      
+      width: 100%;
+      height: 1029px;
+      background: rgba(255,255,255,1);
+      opacity: 1;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      overflow: hidden;
+}
+.v15_39 { /*Imagen fondo*/
+      /*background-color:rgba(0, 0, 0, 0.6000000238418579);*/
+      width:1420px;
+      height:100%;
+      position:absolute;
+      left:-58.51273727416992px;
+      top:-1px;
+      background-repeat:no-repeat;
+      background-size:cover;
+  
+      /*position: absolute;
+      width: 1390px;
+      height: 1029px;
+      left: -58.51px;
+      top: -5px;*/
+  
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/images/v15_39.png");
+      filter: blur(1.5px);
+  }
+  .v4_17 { /*fondo logo*/
+      position: absolute;
+      width: 227px;
+      height: 225px;
+      left: 30px;
+      top: -5px;
+      
+      background: #C79D4C;
+      border-radius: 0px 0px 50px 50px;
+  }
+  .v13_20 { /*fondo menu*/
+      position: absolute;
+      width: 205px;
+      height: 78px;
+      left: 300px;
+      top: -5px;
+  
+      background: #C79D4C;
+      border-radius: 0px 0px 30px 30px;
+  }
+  .v13_23 { /*fondo promo*/
+      position: absolute;
+      width: 205px;
+      height: 78px;
+      left: 545px;
+      top: -5px;
+  
+      background: #C79D4C;
+      border-radius: 0px 0px 30px 30px;
+  }
+  .v13_30 {/*fondo wp*/
+      position: absolute;
+      width: 122px;
+      height: 69px;
+      left: 1230px;
+      top: 887px;
+  
+      background: #4EB18F;
+      border-radius: 30px 0px 0px 30px;
+  }
+  .v13_31 { /*fondo inicio sesion*/
+      position: absolute;
+      width: 178px;
+      height: 78px;
+      left: 1171px;
+      top: 211px;
+      
+      background: #C79D4C;
+      border-radius: 30px 0px 0px 30px;
+  }
+  .v13_27 { /*fondo busqueda*/
+      position: absolute;
+      width: 92px;
+      height: 78px;
+      left: 792px;
+      top: -5px;
+      
+      background: #C79D4C;
+      border-radius: 0px 0px 30px 30px;
+  }
+  .v13_35 { /*fondo lista de deseos*/
+      position: absolute;
+      width: 92px;
+      height: 78px;
+      left: 920px;
+      top: -5px;
+      
+      background: #C79D4C;
+      border-radius: 0px 0px 30px 30px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+  }
+  .v13_21 {  /*fondo carrito*/
+      position: absolute;
+      width: 178px;
+      height: 147px;
+      left: 1171px;
+      top: -5px;
+      
+      background: #C79D4C;
+      border-radius: 0px 0px 0px 50px;
+  }
+  .v13_19 { /*imagen logo*/
+      position: absolute;
+      width: 136px;
+      height: 195px;
+      left: 73px;
+      top: 10px;
+      background: url("/static/images/v13_19.png");
+      background-repeat:no-repeat;
+      background-size:cover;
+  }
+  .v13_25 { /*letra menu*/
+      position: absolute;
+      width: 81px;
+      height: 36px;
+      left: 360px;
+      top: 16px;
+      
+      font-family: Bowlby One SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 37px;
+      
+      color: #000000;
+  }
+  .v13_26 { /*letra promos*/
+      position: absolute;
+      width: 118px;
+      height: 36px;
+      left: 590px;
+      top: 16px;
+      
+      font-family: Bowlby One SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 37px;
+      
+      color: #000000;
+  }
+
+  .v13_29 { /*imagen lupa*/
+  
+    background: url("/static/images/v13_29.png");
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 816px;
+    top: 10px;
+  }
+  
+  .v95_7 { /*imagen corazon*/
+  
+    background: url("/static/images/v95_7.png");
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 940px;
+    top: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .v15_33 { /*imagen carrito*/
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      left: 1225px;
+      top: 28px;
+      background: url("/static/images/v15_33.png");
+      background-repeat:no-repeat;
+      background-size:cover;
+  
+  }
+  .v15_36 { /*imagen wp*/
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 1255px;
+      top: 892px;
+      width: 60px;
+      height: 60px;
+      background: url("/static/images/v15_36.png");
+      background-repeat:no-repeat;
+      background-size:cover;
+  
+  }
+  .v39_2 { /*letra Noodles company*/
+      position: absolute;
+      width: 457px;
+      height: 242px;
+      left: 491px;
+      top: 370px;
+      
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 100px;
+      line-height: 119px;
+      text-align: center;
+      
+      color: #FFFFFF;
+  }
+  .v40_3 { /*letra tradicion oriental en tu paladar*/
+      position: absolute;
+      width: 578px;
+      height: 140px;
+      left: 431px;
+      top: 701px;
+      
+      font-family: SF Pro Display;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 60px;
+      line-height: 72px;
+      text-align: center;
+      
+      color: #FFFFFF;
+  }
+  .v46_4 { /*Rectangulo de abajo*/
+      position: absolute;
+      width: 1440px;
+      height: 29px;
+      left: 0px;
+      top: 995px;
+      
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 50%);
+  }
+  .v46_5 { /* letra contacto*/
+      position: absolute;
+      width: 124px;
+      height: 22px;
+      left: 408px;
+      top: 999px;
+      
+      font-family: Bowlby One SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #FFFFFF;
+  }
+  .v46_7 { /*PQR*/
+      position: absolute;
+      width: 57px;
+      height: 22px;
+      left: 974px;
+      top: 999px;
+      
+      font-family: Bowlby One SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #FFFFFF;
+      
+  }
+  .v46_6 { /*politica de privacidad*/
+      position: absolute;
+      width: 286px;
+      height: 22px;
+      left: 610px;
+      top: 999px;
+      
+      font-family: Bowlby One SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 31px;
+      
+      color: #FFFFFF;
+  }
+.v46_57 { /*imagen usuario*/
+    background: url("/static/images/v46_57.png");
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 1250px;
+    top: 221px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}  

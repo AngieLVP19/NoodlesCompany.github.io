@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/Agregar.css') }}" type="text/css">
+    <title>Editar plato Noodles Company</title>
+</head>
+<body>
+    <a  href="/">
+        <div class="v40_13"></div>
+    </a>
+    <form action="/editar_plato" method="POST" name="editar_plato"> 
+        {{csrf_token}}
+    <div class="v42_46"><div class="v42_48"></div>
+
+    <div class="v15_39"></div>
+    <strong>
+    <span class="v42_55">Editar Plato</span></strong>
+    <br><br>
+    <input type="text" class="1" id="id" name="id" placeholder="Id">
+    <br><br>
+    <input type="text" class="2" id="nombre_plato" name="nombre_plato" placeholder="Nombre">
+    <br><br>
+    <input type="text" class="12" id="precio" name="precio" placeholder="Precio">
+    <br><br>
+    <textarea  class="3" rows="10" cols="45" id="descripcion" name="descripcion" placeholder="Descripción"></textarea>
+    <br><br>
+    <input type="file" name="foto" />
+    <br><br>
+    <input type="submit" class="v42_81" value="Editar">
+    <br><br>
+    
+</div>
+
+</form>
+<style>
+    .v40_13{
+        position: absolute;
+      width: 40px;
+      height: 50px;
+      left: 30px;
+      top: 10px;
+      background: url("/static/images/v13_19.png");
+      background-repeat:no-repeat;
+      background-size:cover;}
+    </style>
+</body>
+</html>

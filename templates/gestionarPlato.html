@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gestionar plato Noodles company</title>
+</head>
+<body>
+<strong><form method="POST" action="/gestionPlato">
+    <a  href="/agregar_plato">
+        <div class="3">Agregar Plato</div>
+    </a>
+    <a  href="/editar_plato">
+        <div class="3">Editar Plato</div>
+    </a>
+    <br><br>
+    {%for i in lista_platos%}
+            <div id="1" name="1">{{i}}</div> 
+            <br><br>
+    {%endfor%}
+    <input type="text" id="3" name="3" placeholder="digite id a eliminar">
+    <input type="submit" id="2"  value="Eliminar">
+</form>
+        
+</strong>
+</body>
+</html>

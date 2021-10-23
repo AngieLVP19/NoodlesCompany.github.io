@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="{{ url_for('static',filename='js/base.js') }}">
+    </script>
+</head>
+<body>
+    <div class="v15_39"></div>
+    <a  href="/">
+        <div class="v40_13"></div>
+    </a>
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside class="col-sm-4">
+                <h2>Carrito</h2>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">Total: <span id="total"></span>&dollar;</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+            
+        </div>
+    </div>
+    
+    <style>
+    .v40_13{
+        position: absolute;
+      width: 50px;
+      height: 70px;
+      left: 28px;
+      top: 10px;
+      background: url("/static/images/v13_19.png");
+      background-repeat:no-repeat;
+      background-size:cover;}
+      .v15_39 { /*Imagen fondo*/
+        /*background-color:rgba(0, 0, 0, 0.6000000238418579);*/
+        width:1420px;
+        height:100%;
+        position:absolute;
+        left:-58.51273727416992px;
+        top:-1px;
+        background-repeat:no-repeat;
+        background-size:cover;
+    
+        /*position: absolute; /static/css/Inicio.css
+        width: 1390px;
+        height: 1029px;
+        left: -58.51px; 
+        top: -5px;*/
+    
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yMTg4OTUzMC9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTYxMTc2NTU5NX0.ZNwo-wh4eQLCNnTmandb3ljaedj8I7p5xmHPrOcx1xQ/img.jpg?width=980");
+        filter: blur(1.5px);
+    }
+    </style>
+    
+</body>
+</html>

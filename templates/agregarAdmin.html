@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/Agregar.css') }}" type="text/css">
+    <title>Agregar usuario final Noodles Company</title>
+</head>
+<body>
+  <a  href="/">
+    <div class="v40_13"></div>
+</a>
+    <form action="/agregarAdmin" method="POST" name="agregar_admin"
+    onSubmit="return validar_formulario(event);">
+        {{csrf_token}}
+        <div class="v42_46"><div class="v42_48"></div>
+    
+        <div class="v15_39"></div>
+        <strong>
+        <span class="v42_55">AGREGAR ADMINISTRADOR</span></strong>
+        <br><br>
+        <input type="text" class="4" id="nombre" name="nombre" placeholder="Nombre">
+        <br><br>
+        <input type="email" class="6" id="correo" name="correo" placeholder="Correo">
+        <br><br>
+        <input type="text" class="7" id="telefono" name="telefono"placeholder="Telefono">
+        <br><br>
+        <input type="password" class="8" id="contraseña" name="contraseña" placeholder="Contraseña">
+        <br><br>
+        <input type="text" class="5" id="direccion" name="direccion" placeholder=" Direccion">
+        <br><br>
+        <input type="file" name="foto" />
+        <br><br>
+        <input type="submit" class="10" value="Agregar">
+        </div>
+    </form>
+    <script >
+        function validar_formulario() {
+          var email = document.agregar_usuariof.correo;
+          var password = document.agregar_usuariof.contraseña;
+          var vpassword = document.agregar_usuariof.vcontraseña;
+        
+          var formato_email = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$/;
+          if (!email.value.match(formato_email)) {
+            alert("Debes ingresar un email electrónico valido!");
+            return false; //Para que los datos se conserven
+            
+          }
+        
+          var passid_len = password.value.length;
+          if (passid_len == 0 || passid_len < 8) {
+            alert("Debes ingresar una password con mas de 8 caracteres");
+            return false; //Para que los datos se conserven
+          }
+        }
+      </script>
+      <style>
+        .v40_13{
+            position: absolute;
+          width: 40px;
+          height: 50px;
+          left: 30px;
+          top: 10px;
+          background: url("/static/images/v13_19.png");
+          background-repeat:no-repeat;
+          background-size:cover;}
+        </style>
+</body>
+</html>

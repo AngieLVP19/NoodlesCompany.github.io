@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/Plato2.css') }}" type="text/css">
+        <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One+SC" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Plato Noodles Company</title>
+    </head>
+    <body>
+        <div class="v75_33">
+            <div class="v75_48"></div><div class="v75_34"></div>
+            <div class="v75_35"></div><div class="v75_36"></div>
+            <div class="v75_37"></div><div class="v75_38"></div>
+            <div class="v75_39"></div>
+            <a  href="/">
+                <div class="v75_40"></div>
+            </a>
+            <a  href="/menu">
+                <span class="v75_41">MENU</span>
+            </a>
+            <a  href="/promos">
+                <span class="v75_42">PROMOS</span>
+            </a>
+            {%if sesion_ini%}
+            <div class="v75_43"></div>
+            <a  href="/carrito">
+                <div class="v75_44"></div>
+            </a>
+            {%else%}
+            <div class="v75_43"></div>
+            <a  href="/login">
+                <div class="v75_44"></div>
+            </a>
+            {%endif%}
+            {% set nombre="noodles teriyaki"%}
+            {% set precio=25000%}
+            {% set id=2%}
+            <div class="v75_45"></div>
+            <span class="v75_46">NOODLES TERIYAKI</span>
+            <span class="v75_47">Fideos orientales con champiñones y verduras salteadas, con un toque agridulce que le agrega nuestra salsa de soya de la casa</span>
+            {%if sesion_ini%}
+            <div class="v75_55"></div>
+            <a  href="/perfil">
+                <div class="v75_56"></div>
+            </a>
+            {%endif%}
+            <div class="v78_57"></div>
+            <div class="v78_58"></div>
+            <div class="v13_35"></div>
+            <a  href="/lista">
+                <div class="v95_7"></div>
+            </a>
+            <span class=></span>
+            <span class="v78_62">$ 25.000</span>
+            <div id='product-component-2dd3c8704e6'></div>
+            {%if sesion_ini%}
+            <form action="/carrito" method="POST">
+                {{csrf_token}}
+                <input type="submit" action="/carrito" class="v78_59" value="Agregar al carrito">
+            </form>
+            <form action="/agregar_lista" method="POST">
+                {{csrf_token}}
+                <input id="nombre" name="nombre" type="hidden" value="{{nombre}}">
+                <input id="precio" name="precio" type="hidden" value="{{precio}}">
+                <input id="id" name="id" type="hidden" value="{{id}}">
+                <input type="submit" action="/agregar_lista" class="v78_60"value="Agregar a lista de deseos">
+            </form>
+            {%endif%}
+            <span class="v1">COMENTARIOS</span>
+            {%for i in lista_comentario%}
+        <div class="lista-deseos-bio">
+        <form action ="/lista" method="POST">
+            {% set comentario=i[3]%}
+            {% set usuario=i[6]%}
+            {% set id=i[2]%}
+            <input id="id" name="id" type="hidden" value="{{id}}">
+            <ul class="descplato">
+               <li>{{usuario}} : {{comentario}} </li> 
+            </ul>
+            
+             </form>
+            </div>
+        {%endfor%}
+        </div>
+    </body>
+</html>

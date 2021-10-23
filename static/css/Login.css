@@ -1,0 +1,254 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v1 { /*letras error*/
+  width: 500px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.v42_35 {
+    width: 100%;
+    height: 1029px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+.v15_39 { /*Imagen fondo*/
+    /*background-color:rgba(0, 0, 0, 0.6000000238418579);*/
+	width:1420px;
+	height:100%;
+	position:absolute;
+	left:-58.51273727416992px;
+	top:-1px;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+    /*position: absolute; /static/css/Inicio.css
+    width: 1390px;
+    height: 1029px;
+    left: -58.51px; 
+    top: -5px;*/
+
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/images/fondologin.jpg");
+    filter: blur(1.5px);
+}
+
+.v42_36 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v42_37 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 31px;
+  overflow: hidden;
+}
+.v42_38 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 62px;
+  overflow: hidden;
+}
+.v42_39 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 751px;
+  overflow: hidden;
+}
+.v42_40 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 720px;
+  overflow: hidden;
+}
+.v42_41 {
+  width: 20px;
+  height: 381px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 689px;
+  overflow: hidden;
+}
+.v42_43 {
+  width: 446px;
+  height: 203px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 89px;
+  left: 163px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  overflow: hidden;
+}
+.v42_44 { /*letra inicio sesion*/
+  width: 131px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 80px;
+  left: 185px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 50px;
+  opacity: 1;
+  text-align: center;
+}
+.v42_45 { /*letra registrarse*/
+  width: 133px;
+  color: rgba(76,118,199,1);
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+/*.v42_57 { rectangulo correo
+  width: 258px;
+  height: 46px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 129px;
+  left: 192px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}*/
+/*.v42_62 {  rectangulo contraseña
+  width: 258px;
+  height: 46px;
+  background: rgba(199,157,76,1);
+  opacity: 1;
+  position: absolute;
+  top: 208px;
+  left: 192px;
+  border: 2px solid rgba(164,129,63,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}*/
+.v42_60 { /*input correo*/
+  width: 258px;
+  height: 46px;
+  color: rgb(0, 0, 0);
+  background: rgba(199,157,76,1);
+  position: absolute;
+  top: 225px;
+  left: 192px;
+  font-family: SF Pro Display;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid rgba(164,129,63,1);
+}
+.v42_63 { /* input contraseña*/
+  width: 258px;
+  height: 46px;
+  color: rgb(0, 0, 0);
+  background: rgba(199,157,76,1);
+  position: absolute;
+  top: 300px;
+  left: 192px;
+  font-family: SF Pro Display;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid rgba(164,129,63,1);
+}
+/*.v42_64 {  fondo boton ingreso
+  width: 96px;
+  height: 125px;
+  background: rgba(76,118,199,1);
+  opacity: 1;
+  position: absolute;
+  top: 129px;
+  left: 487px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  }*/
+
+.v42_65 {  /*botón ingresar*/
+  width: 96px;
+  height: 125px;
+  background: rgba(76,118,199,1);
+  position: absolute;
+  top: 227px;
+  left: 500px;
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.v50{  /*ojo*/
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 308px;
+  left:410px;
+}

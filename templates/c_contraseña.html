@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/Agregar.css') }}" type="text/css">
+    <title>Cambiar contraseña plato Noodles Company</title>
+</head>
+<body>
+    <a  href="/">
+        <div class="v40_13"></div>
+    </a>
+    <form action="/c_contraseña" method="POST" name="c_contraseña"> 
+        {{csrf_token}}
+    <div class="v42_46"><div class="v42_48"></div>
+
+    <div class="v15_39"></div>
+    <strong>
+    <span class="v42_55">Cambiar contraseña</span></strong>
+    <br><br>
+    <input type="password" class="2" id="contraseña" name="contraseña" placeholder="contraseña actual">
+    <br><br>
+    <input type="password" class="12" id="ncontraseña" name="ncontraseña" placeholder="contraseña nueva">
+    <br><br>
+    <input type="submit" class="v42_81" value="Cambiar">
+    <br><br>
+    
+</div>
+
+</form>
+<style>
+    .v40_13{
+        position: absolute;
+      width: 40px;
+      height: 50px;
+      left: 30px;
+      top: 10px;
+      background: url("/static/images/v13_19.png");
+      background-repeat:no-repeat;
+      background-size:cover;}
+    </style>
+</body>
+</html>

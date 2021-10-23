@@ -1,0 +1,156 @@
+html {
+    background-color: black;
+}
+.plato1 {
+    position: relative;
+    left: 2rem;
+    top:2rem;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px 20px 20px 20px;
+  }
+.descplato{
+    position: relative;
+    left: 0rem;
+    top:-2rem;
+    text-align: left;
+    list-style: none;
+    font-weight: bold;
+    color: rgba(255,255,255,1);
+  font-family: SF Pro Display;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  }
+  .agregar {
+    background-color: #4c76c7;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    left: 60rem;
+    width: 150px;
+    height: 120px;
+    cursor: pointer;
+  }
+#app{
+    background-image: linear-gradient(#C79D4C, rgba(0, 0, 0, 0));
+}
+.container {
+	max-width: 640px;
+	margin: 30px auto;
+	
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.comment {
+	display: block;
+	transition: all 1s;
+}
+
+.commentClicked {
+	min-height: 0px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 5px 10px
+}
+
+button.primaryContained {
+	background: #016ba8;
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+button.primaryContained:hover {
+	background: #9201A8;
+}
+
+.input{
+    width: 400px;
+    height: 100px;
+    resize: none;
+    border-radius: 20px;
+    position:relative;
+    top:0rem;
+    left:-3rem;
+    
+}
+.comen{
+    width: 150px;
+    height: 25px;
+    resize: none;
+    border-radius: 20px;
+    position:relative;
+    top:-8rem;
+    left:15rem;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.col-6 {
+    text-align: center;
+    display: block;
+}
+.primaryContained{
+    position: relative;
+    text-align: center;
+    display: block;
+    left: 45%;
+}
+
+.titulo{
+    position: relative;
+    left: 1rem;
+    color: #4c76c7;
+}
+
+.comentario1{
+    background-color: #C79D4C;
+    color: white;
+    border-radius: 20px;
+}
+
+.comentario{
+    position: relative;
+    margin-top: auto;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.comentario2{
+    background-color: #C79D4C;
+    color: white;
+    border-radius: 20px;
+}
+
+.comentario3{
+    background-color: #C79D4C;
+    color: white;
+    border-radius: 20px;
+}
+
+.plato {
+    color:#4c76c7;
+    display: flex;
+    justify-content: right;
+    margin-right: 1rem;
+}
+
+.logo{
+    width: 105px;
+    height: 154px;
+    position: absolute;
+    left: 4rem;
+    z-index: 1;
+    cursor: pointer;
+}

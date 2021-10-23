@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gestionar usuarios Noodles Company</title>
+</head>
+<body>
+<strong><form method="POST" action="/gestionUsuario">
+    <a  href="/agregar_usuariof">
+        <div class="3">Agregar usuario</div>
+    </a>
+    <a  href="/editar_usuariof">
+        <div class="3">Editar usuario</div>
+    </a>
+    <a  href="/agregarAdmin">
+        <div class="3">Agregar administrador</div>
+    </a>
+    <br><br>
+    {%for i in lista_usuarios%}
+            <div id="1" name="1">{{i}}</div> 
+            <br><br>
+    {%endfor%}
+    <input type="text" id="3" name="3" placeholder="digite correo de usuario a eliminar">
+    <input type="submit" id="2"  value="Eliminar">
+</form>
+        
+</strong>
+</body>
+</html>

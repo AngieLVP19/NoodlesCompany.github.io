@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/MisComentarios.css') }}" type="text/css">
+</head>
+<body>
+
+    <section id="app">
+        <button> 
+            <a href="/">  <img src="static/images/v13_19.png" alt= "Inicio" class="logo"></a>
+        </button>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="comment">
+            <p v-for="items in item" v-text="items"></p>
+              </div><!--End Comment-->
+              </div><!--End col -->
+              </div><!-- End row -->
+          <div class="row">
+            <div class="col-6">
+              <form action ="/comentar_plato" method="POST">
+              <input type="text" class="comen" name="comen" placeholder="Nombre de plato">
+                <textarea type="text" class="input" name="input" placeholder="Escribe tu comentario" @keyup.enter="addItem()"></textarea>
+                <button class='primaryContained' type="submit">Comentar</button>
+              </form>
+            </div><!-- End col -->
+          </div><!--End Row -->
+        </div><!--End Container -->
+        {%for i in lista_comentario%}
+        <div class="comentario1">
+        <form action ="/mis_comentarios" method="POST">
+            {% set comentario=i[3]%}
+            {% set plato=i[5]%}
+            {% set id=i[4]%}
+            <img src="/static/images/{{i[8]}}" class="plato1"> 
+            <input type="submit" class="agregar" nombre="eliminar" value="Eliminar">
+            <input id="id" name="id" type="hidden" value="{{id}}">
+            <ul class="descplato">
+                <strong>
+               <a href="/plato{{i[4]}}"><li>Plato: {{plato}}</li></a> 
+                <li name="precio"> {{comentario}}</li>
+                </strong>
+            </ul>
+            
+             </form>
+            </div>
+        {%endfor%}
+      </section><!-- end App -->
+
+</body>
+</html>
