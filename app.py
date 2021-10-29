@@ -71,6 +71,7 @@ def registro():
                 error = f"El correo {correo}  ya existe"
                 flash( error )
                 return render_template('registro.html', error=error)
+            
             query2="INSERT INTO USUARIO(ROL,NOMBRE,CORREO,CONTRASEÑA,TELEFONO,DIRECCION) VALUES(?,?,?,?,?,?)"
             tupla2=(rol,Nombre,correo,generate_password_hash(contraseña),telefono,direccion)
             db.execute(query2,tupla2)
@@ -148,7 +149,7 @@ def perfil():
     query4='SELECT * FROM USUARIO WHERE ID = ? '
     tupla4=(id,)
     encontrado=db.execute(query4,tupla4).fetchone()
-    #print(encontrado)
+    print(encontrado)
     rol=encontrado[1]
     nombre=encontrado[2]
     email=encontrado[3]
@@ -213,7 +214,7 @@ def plato():
         for row in db.execute(query8,tupla8):
             lista_comentario.append(row)
         print(lista_comentario)
-        return render_template('plato1.html',sesion_ini=sesion_ini, nombre=nombre,descripcion=descripcion,precio=precio,foto=foto,lista_comentario=lista_comentario)
+        return render_template('plato1.html',sesion_ini=sesion_ini,id=id, nombre=nombre,descripcion=descripcion,precio=precio,foto=foto,lista_comentario=lista_comentario)
     else:return redirect('/menu')
     
 #@app.route('/plato2',methods=['GET','POST'])
@@ -353,7 +354,8 @@ def carroCompras():
             tupla16=(id,)
             for row in db.execute(query16,tupla16):
                 carro.append(row)
-                print(carro)
+            print("carro",carro)
+            #print(carro[0][0])
             return render_template('carroCompras.html',carro=carro)
         else: 
             id_plato=int(request.form['id'])
@@ -363,6 +365,20 @@ def carroCompras():
             db.commit()
             return redirect('/carrito')
     return redirect('/login')
+@app.route('/eliminar_carrito', methods=['GET','POST'])
+@login_required
+def carroCompras2():
+    db = get_db()
+    id=session['user_id']
+    if(request.method =="POST"):
+        id_plato=int(request.form['id'])
+        query17="DELETE FROM CARRITO WHERE USUARIO=? AND PLATO=?"
+        tupla17=(id,id_plato)
+        print(id,id_plato)
+        db.execute(query17,tupla17)
+        db.commit()
+        return redirect('/carrito')
+    return redirect('/carrito')
     
 @app.route('/carrito/pedido', methods=['GET','POST'])
 def realizarPedido():
@@ -587,7 +603,7 @@ def agregar2():
                 return render_template('agregar_usuariof.html',error=error)
             query29='SELECT ID FROM USUARIO WHERE CORREO = ?'
             tupla29=(correo,)
-            encontrado=db.execute(query29,tupla29)
+            encontrado=db.execute(query29,tupla29).fetchone()
             print(encontrado)
             if encontrado is not None:
                 error = f"El correo {correo}  ya existe"
@@ -595,7 +611,7 @@ def agregar2():
                 return render_template('agregar_usuariof.html', error=error)
             query30="INSERT INTO USUARIO(ROL,NOMBRE,CORREO,CONTRASEÑA,TELEFONO,DIRECCION) VALUES(?,?,?,?,?,?)"
             tupla30=(rol,nombre,correo,generate_password_hash(contraseña),telefono,direccion)
-            db.executescript(query30,tupla30)
+            db.execute(query30,tupla30)
             db.commit()
             return redirect( '/agregar_usuariof' )
     else:
