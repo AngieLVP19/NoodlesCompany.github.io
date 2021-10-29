@@ -806,21 +806,7 @@ body {
   left: 1357px;
   overflow: hidden;
 }
-.v62_187 { /*imagen perfil*/
-  width: 988px;
-  height: 553px;
-  background: url("/static/images/63460.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 226px;
-  border-bottom-left-radius: 31px;
-  border-bottom-right-radius: 31px;
-  overflow: hidden;
-}
+
 .v62_188 {
   width: 227px;
   height: 211px;
