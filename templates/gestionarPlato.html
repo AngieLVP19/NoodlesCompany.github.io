@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/Agregar.css') }}" type="text/css">
 <title>Gestionar plato Noodles company</title>
 </head>
 <body>
 <strong><form method="POST" action="/gestionPlato">
+    <a  href="/perfil">
+        <div class="v40_13"></div>
+    </a>
     <a  href="/agregar_plato">
         <div class="3">Agregar Plato</div>
     </a>
@@ -19,7 +23,17 @@
     <input type="text" id="3" name="3" placeholder="digite id a eliminar">
     <input type="submit" id="2"  value="Eliminar">
 </form>
-        
+<style>
+    .v40_13{
+        position: absolute;
+      width: 40px;
+      height: 50px;
+      left: 30px;
+      top: 10px;
+      background: url("/static/images/v13_19.png");
+      background-repeat:no-repeat;
+      background-size:cover;}
+    </style>      
 </strong>
 </body>
 </html>

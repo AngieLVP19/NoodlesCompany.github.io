@@ -5,13 +5,13 @@
         <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
         <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One+SC" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/Superadmin.css') }}" type="text/css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Admin Noodles company</title>
     <body>
         {%if sesion_ini%}
-        <link rel="stylesheet" href="{{ url_for('static',filename='css/Superadmin.css') }}" type="text/css">
         <div class="v62_125">
             <div class="v62_126">
                 <div class="v62_127"></div>
@@ -122,5 +122,22 @@
                 </form>
             </div>
             {%endif%}
+            <style>
+                .v62_187 { /*imagen perfil*/
+                    width: 988px;
+                    height: 553px;
+                    background: url("/static/images/{{foto}}");
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    opacity: 1;
+                    position: absolute;
+                    top: 0px;
+                    left: 226px;
+                    border-bottom-left-radius: 31px;
+                    border-bottom-right-radius: 31px;
+                    overflow: hidden;
+                  }
+            </style>
         </body>
     </html>

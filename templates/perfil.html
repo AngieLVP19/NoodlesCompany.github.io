@@ -5,6 +5,7 @@
         <link href="https://fonts.googleapis.com/css?family=SF+Pro+Display&display=swap" rel="stylesheet" />
         <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bowlby+One+SC" />
+        <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,102 +13,6 @@
     </head>
     <body>
         {%if sesion_ini%}
-        {%if foto=="img1"%}
-            <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
-            <style>
-                 .v55_29 {
-                    width: 988px;
-                    height: 553px;
-                    background: url("/static/images/63458.jpg");
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                    opacity: 1;
-                    position: absolute;
-                    top: 0px;
-                    left: 226px;
-                    border-bottom-left-radius: 31px;
-                    border-bottom-right-radius: 31px;
-                    overflow: hidden;
-                  }
-            </style>
-            {%elif foto=="img2"%}
-            <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
-            <style>
-                 .v55_29 {
-                    width: 988px;
-                    height: 553px;
-                    background: url("/static/images/63459.jpg");
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                    opacity: 1;
-                    position: absolute;
-                    top: 0px;
-                    left: 226px;
-                    border-bottom-left-radius: 31px;
-                    border-bottom-right-radius: 31px;
-                    overflow: hidden;
-                  }
-            </style>
-            {%elif foto=="img3"%}
-            <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
-            <style>
-                 .v55_29 {
-                    width: 988px;
-                    height: 553px;
-                    background: url("/static/images/63460.jpg");
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                    opacity: 1;
-                    position: absolute;
-                    top: 0px;
-                    left: 226px;
-                    border-bottom-left-radius: 31px;
-                    border-bottom-right-radius: 31px;
-                    overflow: hidden;
-                  }
-            </style>
-            {%elif foto=="img4"%}
-            <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
-            <style>
-                 .v55_29 {
-                    width: 988px;
-                    height: 553px;
-                    background: url("/static/images/63457.jpg");
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                    opacity: 1;
-                    position: absolute;
-                    top: 0px;
-                    left: 226px;
-                    border-bottom-left-radius: 31px;
-                    border-bottom-right-radius: 31px;
-                    overflow: hidden;
-                  }
-            </style>
-            {%else%}
-            <link rel="stylesheet" href="{{ url_for('static',filename='css/Perfil.css') }}" type="text/css">
-            <style>
-                 .v55_29 {
-                    width: 988px;
-                    height: 553px;
-                    background: url("/static/images/v46_57.jpg");
-                    background-repeat: no-repeat;
-                    background-position: center center;
-                    background-size: cover;
-                    opacity: 1;
-                    position: absolute;
-                    top: 0px;
-                    left: 226px;
-                    border-bottom-left-radius: 31px;
-                    border-bottom-right-radius: 31px;
-                    overflow: hidden;
-                  }
-            </style>
-            {%endif%}
             <div class="v47_4">
                 <div class="v55_102">
                     <div class="v55_30"></div>
@@ -212,5 +117,22 @@
                     <input type="submit" class="v1" value="cerrar sesion">
                 </form>
                 {%endif%}
+            <style>
+                .v55_29 {
+                    width: 988px;
+                    height: 553px;
+                    background: url("/static/images/{{foto}}");
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    opacity: 1;
+                    position: absolute;
+                    top: 0px;
+                    left: 226px;
+                    border-bottom-left-radius: 31px;
+                    border-bottom-right-radius: 31px;
+                    overflow: hidden;
+                     }
+            </style>
     </body>
 </html>
